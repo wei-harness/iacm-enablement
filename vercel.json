@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm run build:prod",
+  "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/", "destination": "/ccm/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/ccm/(.*)", "destination": "/ccm/index.html" },
+    { "source": "/ccm-sales-enablement", "destination": "/ccm/index.html" },
+    { "source": "/login/callback{/}?", "destination": "/ccm/index.html" }
+  ]
+  
+}

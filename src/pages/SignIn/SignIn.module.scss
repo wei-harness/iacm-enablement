@@ -1,0 +1,99 @@
+.loginMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  .loginMainLeft {
+    padding: 40px;
+    width: 40%;
+    max-width: 750px;
+    overflow-y: auto;
+
+    .loginMainLeftInner {
+      max-width: 540px;
+      min-width: 540px;
+      width: 540px;
+
+      .logo {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+
+        img,
+        svg {
+          margin-right: 8px;
+          width: 130px;
+        }
+      }
+
+      h2 {
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: bold;
+        padding: 50px 0 10px;
+        margin: 0;
+        color: #000;
+
+        span {
+          color: var(--primary-7);
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+        color: rgb(85 82 112);
+        margin-bottom: 64px;
+
+        a {
+          color: var(--primary-7);
+        }
+      }
+    }
+  }
+
+  .loginMainRight {
+    background: #0a3364;
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/assets/sign-in-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
+}
+
+.button {
+  width: 180px;
+  height: 36px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: var(--weight-semibold);
+  gap: 4px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary-7);
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    color: white;
+  }
+}
