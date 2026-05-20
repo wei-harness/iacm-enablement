@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-20T00:00:00.000Z",
+  "title": "Design System: AR Sales Enablement",
+  "extensions": {
+    "colorMeta": {
+      "finops-teal": {
+        "role": "primary",
+        "displayName": "FinOps Teal",
+        "canonical": "oklch(60% 0.115 210)",
+        "tonalRamp": [
+          "oklch(20% 0.06 210)",
+          "oklch(30% 0.08 210)",
+          "oklch(40% 0.10 210)",
+          "oklch(50% 0.115 210)",
+          "oklch(60% 0.115 210)",
+          "oklch(75% 0.08 210)",
+          "oklch(88% 0.04 210)",
+          "oklch(96% 0.015 210)"
+        ]
+      },
+      "devops-green": {
+        "role": "secondary",
+        "displayName": "DevOps Green",
+        "canonical": "oklch(55% 0.13 155)",
+        "tonalRamp": [
+          "oklch(20% 0.06 155)",
+          "oklch(30% 0.09 155)",
+          "oklch(40% 0.11 155)",
+          "oklch(48% 0.13 155)",
+          "oklch(55% 0.13 155)",
+          "oklch(70% 0.10 155)",
+          "oklch(85% 0.05 155)",
+          "oklch(95% 0.02 155)"
+        ]
+      },
+      "appsec-blue": {
+        "role": "secondary",
+        "displayName": "AppSec Blue",
+        "canonical": "oklch(55% 0.18 245)",
+        "tonalRamp": [
+          "oklch(20% 0.08 245)",
+          "oklch(30% 0.12 245)",
+          "oklch(42% 0.16 245)",
+          "oklch(50% 0.18 245)",
+          "oklch(60% 0.16 245)",
+          "oklch(75% 0.10 245)",
+          "oklch(88% 0.05 245)",
+          "oklch(96% 0.02 245)"
+        ]
+      },
+      "quality-violet": {
+        "role": "secondary",
+        "displayName": "Quality Violet",
+        "canonical": "oklch(65% 0.20 295)",
+        "tonalRamp": [
+          "oklch(25% 0.10 295)",
+          "oklch(35% 0.14 295)",
+          "oklch(45% 0.18 295)",
+          "oklch(55% 0.20 295)",
+          "oklch(65% 0.20 295)",
+          "oklch(78% 0.13 295)",
+          "oklch(90% 0.06 295)",
+          "oklch(97% 0.02 295)"
+        ]
+      },
+      "near-black": {
+        "role": "secondary",
+        "displayName": "Near Black",
+        "canonical": "oklch(12% 0.01 80)",
+        "tonalRamp": [
+          "oklch(8% 0.005 80)",
+          "oklch(15% 0.008 80)",
+          "oklch(25% 0.01 80)",
+          "oklch(40% 0.01 80)",
+          "oklch(55% 0.01 80)",
+          "oklch(72% 0.008 80)",
+          "oklch(88% 0.005 80)",
+          "oklch(96% 0.003 80)"
+        ]
+      },
+      "bg-canvas": {
+        "role": "neutral",
+        "displayName": "Warm Canvas",
+        "canonical": "oklch(97.5% 0.005 90)",
+        "tonalRamp": [
+          "oklch(15% 0.005 90)",
+          "oklch(28% 0.005 90)",
+          "oklch(42% 0.005 90)",
+          "oklch(55% 0.005 90)",
+          "oklch(70% 0.005 90)",
+          "oklch(85% 0.005 90)",
+          "oklch(93% 0.005 90)",
+          "oklch(97.5% 0.005 90)"
+        ]
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Text Primary",
+        "canonical": "oklch(22% 0.005 280)",
+        "tonalRamp": [
+          "oklch(15% 0.005 280)",
+          "oklch(22% 0.005 280)",
+          "oklch(35% 0.005 280)",
+          "oklch(48% 0.005 280)",
+          "oklch(60% 0.008 280)",
+          "oklch(75% 0.008 280)",
+          "oklch(88% 0.005 280)",
+          "oklch(96% 0.003 280)"
+        ]
+      },
+      "state-success": {
+        "role": "primary",
+        "displayName": "State Success",
+        "canonical": "oklch(55% 0.13 155)",
+        "tonalRamp": [
+          "oklch(30% 0.09 155)",
+          "oklch(45% 0.12 155)",
+          "oklch(55% 0.13 155)",
+          "oklch(68% 0.11 155)",
+          "oklch(80% 0.07 155)",
+          "oklch(90% 0.04 155)",
+          "oklch(95% 0.02 155)",
+          "oklch(98% 0.01 155)"
+        ]
+      },
+      "state-warning": {
+        "role": "primary",
+        "displayName": "State Warning",
+        "canonical": "oklch(75% 0.16 75)",
+        "tonalRamp": [
+          "oklch(40% 0.10 75)",
+          "oklch(55% 0.14 75)",
+          "oklch(65% 0.16 75)",
+          "oklch(75% 0.16 75)",
+          "oklch(85% 0.10 75)",
+          "oklch(92% 0.05 75)",
+          "oklch(96% 0.02 75)",
+          "oklch(98% 0.01 75)"
+        ]
+      },
+      "state-danger": {
+        "role": "primary",
+        "displayName": "State Danger",
+        "canonical": "oklch(63% 0.22 25)",
+        "tonalRamp": [
+          "oklch(35% 0.14 25)",
+          "oklch(48% 0.20 25)",
+          "oklch(58% 0.22 25)",
+          "oklch(63% 0.22 25)",
+          "oklch(75% 0.15 25)",
+          "oklch(88% 0.07 25)",
+          "oklch(94% 0.03 25)",
+          "oklch(98% 0.01 25)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "hero": { "displayName": "Hero", "purpose": "Reserved for true hero moments. Not used in current product surface." },
+      "display": { "displayName": "Display", "purpose": "Top-of-page titles on standalone pages (sign-in)." },
+      "headline": { "displayName": "Section Headline (H3)", "purpose": "Default section title at the top of every in-app section. Always Newsreader." },
+      "title": { "displayName": "Title", "purpose": "Card titles, section panel headings, modal headings. Geist 600." },
+      "body": { "displayName": "Body", "purpose": "Long-form running text. Cap at 65-75ch." },
+      "label": { "displayName": "Label", "purpose": "Eyebrows, badges, table headers, stat labels. Uppercase 0.06-0.1em." },
+      "metric": { "displayName": "Serif Metric", "purpose": "All numerical values on stat cards, SKU cards, and quiz results. Newsreader serif at metric scale." }
+    },
+    "shadows": [
+      { "name": "whisper", "value": "0px 4px 24px rgba(0, 0, 0, 0.05)", "purpose": "Default resting elevation for every card, stat card, panel, roadmap item. Reads as luminance rather than drop-shadow." },
+      { "name": "lift", "value": "0px 4px 8px rgba(0, 0, 0, 0.12)", "purpose": "Hover state for cards that lift. Also used on user-menu dropdown and the quiz container." },
+      { "name": "subtle", "value": "0px 2px 4px rgba(0, 0, 0, 0.08)", "purpose": "Reserved for tighter components; used sparingly." },
+      { "name": "ring-light", "value": "0 0 0 1px var(--border-medium)", "purpose": "Focus halo on round avatar buttons, where outline-offset doesn't fit." },
+      { "name": "elevation-3", "value": "0 0 2px rgba(40,41,61,0.04), 0 4px 8px rgba(96,97,112,0.16)", "purpose": "Two-layer mid elevation held in reserve for modals or floating panels." },
+      { "name": "elevation-4", "value": "0 2px 4px rgba(40,41,61,0.04), 0 8px 16px rgba(96,97,112,0.16)", "purpose": "Two-layer high elevation; reserve for full overlays." }
+    ],
+    "motion": [
+      { "name": "transition-fast", "value": "0.2s ease", "purpose": "Default for all state transitions (hover, focus, active, color shifts)." },
+      { "name": "transition-smooth", "value": "0.3s ease", "purpose": "For larger visual changes that benefit from a slower curve." },
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Used by the user-menu dropdown entrance (dropIn keyframe). Confident, settles fast." },
+      { "name": "reveal-curve", "value": "opacity 0.5s ease, transform 0.5s ease", "purpose": "IntersectionObserver-driven reveal-in for section content. Honors prefers-reduced-motion via a global override in ccm.module.scss." }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "900px" },
+      { "name": "mobile", "value": "600px" },
+      { "name": "narrow-app", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Near-black confirmation/CTA button. Used on sign-in and quiz next-step actions.",
+      "html": "<button class=\"ds-btn-primary\">Continue</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 0.5rem; background: #14120b; color: #ffffff; font-family: 'Geist', system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; line-height: 1.25; padding: 0.5rem 1rem; border: none; border-radius: 8px; cursor: pointer; transition: background 0.2s ease, color 0.2s ease; } .ds-btn-primary:hover { background: #0891b2; color: #ffffff; } .ds-btn-primary:focus-visible { outline: 2px solid #0891b2; outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Bordered ghost button. Used for secondary actions, lesson nav, and quiz back/skip.",
+      "html": "<button class=\"ds-btn-ghost\">Previous</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #eeeeeb; color: #5a5a62; font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; line-height: 1.25; padding: 0.5rem 1rem; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease; } .ds-btn-ghost:hover { border-color: #cbd5e0; color: #202020; background: #eeeeeb; } .ds-btn-ghost:focus-visible { outline: 2px solid #0891b2; outline-offset: 2px; }"
+    },
+    {
+      "name": "Nav Button (Active)",
+      "kind": "nav",
+      "refersTo": "nav-button-active",
+      "description": "Top-nav section selector. Shows inactive and active states side-by-side.",
+      "html": "<div class=\"ds-nav-row\"><button class=\"ds-nav-btn\">Overview</button><button class=\"ds-nav-btn ds-nav-btn-active\">SKUs</button><button class=\"ds-nav-btn\">Personas</button></div>",
+      "css": ".ds-nav-row { display: flex; align-items: center; gap: 0.25rem; padding: 0 1rem; background: #ffffff; border-bottom: 1px solid #e2e8f0; } .ds-nav-btn { background: none; border: none; color: #6e6e74; font-family: 'Geist', system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; line-height: 1.25; padding: 0.75rem 1rem; min-height: 44px; border-radius: 8px; cursor: pointer; white-space: nowrap; transition: color 0.2s ease, background 0.2s ease; } .ds-nav-btn:hover { color: #202020; background: #eeeeeb; } .ds-nav-btn:focus-visible { outline: 2px solid #0891b2; outline-offset: -2px; } .ds-nav-btn-active { color: #202020; background: #eeeeeb; position: relative; } .ds-nav-btn-active::after { content: ''; display: block; position: absolute; bottom: -1px; left: 1rem; right: 1rem; height: 2px; background: #0891b2; border-radius: 2px; }"
+    },
+    {
+      "name": "Stat Card",
+      "kind": "card",
+      "refersTo": "stat-card",
+      "description": "Signature pattern. Serif numeric value in FinOps teal, uppercase Geist label beneath. Repeated as the executive-summary row at the top of nearly every section.",
+      "html": "<div class=\"ds-stat-card\"><div class=\"ds-stat-val\">$11-21M+</div><div class=\"ds-stat-label\">Annual impact per $100M spend</div></div>",
+      "css": ".ds-stat-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05); max-width: 240px; } .ds-stat-val { font-family: 'Newsreader', Georgia, serif; font-size: 1.75rem; font-weight: 400; color: #0891b2; line-height: 1.1; } .ds-stat-label { font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; color: #6e6e74; margin-top: 0.25rem; text-transform: uppercase; letter-spacing: 0.05em; }"
+    },
+    {
+      "name": "SKU Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Signature pattern. Tinted icon block + serif metric in the per-SKU accent. Used in Overview, Maturity, and Cross-Sell sections.",
+      "html": "<button class=\"ds-sku-card\"><div class=\"ds-sku-hdr\"><div class=\"ds-sku-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"20\" x2=\"18\" y2=\"10\"></line><line x1=\"12\" y1=\"20\" x2=\"12\" y2=\"4\"></line><line x1=\"6\" y1=\"20\" x2=\"6\" y2=\"14\"></line></svg></div><div class=\"ds-sku-name\">Cost Insights</div></div><div class=\"ds-sku-tag\">Get visibility before you can optimize. Every other SKU depends on this baseline.</div><div class=\"ds-sku-val\">$1-3M+</div><div class=\"ds-sku-val-label\">Annual savings</div></button>",
+      "css": ".ds-sku-card { display: block; width: 100%; max-width: 320px; text-align: left; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; cursor: pointer; transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05); font-family: 'Geist', system-ui, sans-serif; } .ds-sku-card:hover { transform: translateY(-2px); box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12); border-color: #cbd5e0; } .ds-sku-card:focus-visible { outline: 2px solid #0891b2; outline-offset: 2px; } .ds-sku-hdr { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; } .ds-sku-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #0891b2; background: color-mix(in srgb, #0891b2 10%, transparent); border: 1px solid color-mix(in srgb, #0891b2 25%, transparent); } .ds-sku-name { font-size: 0.875rem; font-weight: 600; color: #202020; } .ds-sku-tag { font-size: 0.75rem; color: #5a5a62; line-height: 1.6; margin-bottom: 0.75rem; } .ds-sku-val { font-family: 'Newsreader', Georgia, serif; font-size: 1.5rem; font-weight: 400; color: #0891b2; line-height: 1.1; margin-bottom: 2px; } .ds-sku-val-label { font-size: 0.75rem; color: #6e6e74; text-transform: uppercase; letter-spacing: 0.05em; }"
+    },
+    {
+      "name": "Roadmap Badge (Status Trio)",
+      "kind": "chip",
+      "refersTo": "badge-now",
+      "description": "Sharp-radius status badges. Always rendered as a trio Now/Soon/Later — color paired with text label, never color-only.",
+      "html": "<div class=\"ds-badge-row\"><span class=\"ds-badge ds-badge-now\">Now</span><span class=\"ds-badge ds-badge-soon\">Soon</span><span class=\"ds-badge ds-badge-later\">Later</span></div>",
+      "css": ".ds-badge-row { display: flex; gap: 0.5rem; align-items: center; } .ds-badge { font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 0.5rem; border-radius: 24px; white-space: nowrap; } .ds-badge-now { background: #e8f5ee; color: #2d8a5e; border: 1px solid color-mix(in srgb, #2d8a5e 30%, transparent); } .ds-badge-soon { background: color-mix(in srgb, #f59e0b 10%, #ffffff); color: #f59e0b; border: 1px solid color-mix(in srgb, #f59e0b 30%, transparent); } .ds-badge-later { background: #eeeeeb; color: #6e6e74; border: 1px solid #e2e8f0; }"
+    },
+    {
+      "name": "Accent Chip",
+      "kind": "chip",
+      "refersTo": "chip-accent",
+      "description": "Pill-shaped accent chip. Used for SKU targets, score chips, and category tags inside content cards.",
+      "html": "<div class=\"ds-chip-row\"><span class=\"ds-chip\">FinOps</span><span class=\"ds-chip\">DevOps</span><span class=\"ds-chip\">Cloud Eng</span></div>",
+      "css": ".ds-chip-row { display: flex; gap: 0.25rem; flex-wrap: wrap; } .ds-chip { font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; padding: 2px 0.5rem; background: color-mix(in srgb, #0891b2 10%, transparent); border: 1px solid color-mix(in srgb, #0891b2 20%, transparent); color: #0891b2; border-radius: 24px; }"
+    },
+    {
+      "name": "Section Header",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Signature page-heading composition. Uppercase Geist eyebrow + Newsreader serif title + Geist sans subtitle. The system's typographic fingerprint.",
+      "html": "<header class=\"ds-section-hdr\"><div class=\"ds-section-eyebrow\">Platform Overview</div><h2 class=\"ds-section-title\">Harness CCM</h2><p class=\"ds-section-sub\">Cloud Cost Management — from visibility to fully automated optimization. Four modular SKUs that stack to deliver $11-21M+ impact per $100M in cloud spend.</p></header>",
+      "css": ".ds-section-hdr { margin-bottom: 2rem; max-width: 720px; } .ds-section-eyebrow { font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #6e6e74; margin-bottom: 0.5rem; } .ds-section-title { font-family: 'Newsreader', Georgia, serif; font-size: 2rem; font-weight: 400; color: #202020; line-height: 1.2; margin: 0 0 0.5rem 0; } .ds-section-sub { font-family: 'Geist', system-ui, sans-serif; font-size: 0.875rem; color: #5a5a62; line-height: 1.6; margin: 0; }"
+    },
+    {
+      "name": "Announcement Bar",
+      "kind": "custom",
+      "refersTo": "announcement-bar",
+      "description": "Full-width tinted strip at the very top of the app shell. Carries one-line product update broadcasts.",
+      "html": "<div class=\"ds-announce\">New Test: Data Pipeline V2 live — latency reduced from 29 hrs to 3 hrs · Azure Commitment Orchestrator shipping Q3 2026</div>",
+      "css": ".ds-announce { background: color-mix(in srgb, #0891b2 6%, #ffffff); border-bottom: 1px solid color-mix(in srgb, #0891b2 16%, #ffffff); padding: 0.5rem 2rem; text-align: center; font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; color: #5a5a62; letter-spacing: 0.03em; }"
+    },
+    {
+      "name": "Select Input",
+      "kind": "input",
+      "refersTo": "input-select",
+      "description": "Dropdown select. Used in the competitive view for picking comparison targets.",
+      "html": "<label class=\"ds-select-wrap\"><span class=\"ds-select-label\">Compare against</span><select class=\"ds-select\"><option>AWS Cost Explorer</option><option>Azure Cost Mgmt</option><option>Apptio Cloudability</option></select></label>",
+      "css": ".ds-select-wrap { display: inline-flex; flex-direction: column; gap: 0.25rem; } .ds-select-label { font-family: 'Geist', system-ui, sans-serif; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: #6e6e74; } .ds-select { background: #eeeeeb; border: 1px solid #e2e8f0; color: #202020; border-radius: 8px; padding: 0.5rem 1rem; font-family: 'Geist', system-ui, sans-serif; font-size: 0.875rem; cursor: pointer; min-width: 220px; transition: border-color 0.2s ease; } .ds-select:hover { border-color: #cbd5e0; } .ds-select:focus { outline: 2px solid #0891b2; outline-offset: 2px; border-color: #0891b2; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Briefing Annual",
+    "overview": "This is a reference work, not an application. A bound annual that lives on the desk of every Harness seller — its job is to be found, flipped to the right page, and trusted at a glance. The typography sets the tone: Newsreader serif headlines have the weight of a printed feature article, while Geist sans carries the running utility (navigation, labels, captions) without ever competing. The page is warm off-white (#f7f7f4), not screen-white, because this surface is meant to feel published rather than rendered.\n\nThe system explicitly rejects three category reflexes: the dark-mode terminal aesthetic that observability-adjacent FinOps tools default to; the SaaS hero-metric template (gradient number, 'Trusted by', three identical stat cards); and the navy-and-gold corporate-finance lane that financial software gravitates toward. We sit between editorial and utility, with FinOps teal as the only saturated voice on the page.\n\nDensity is high — every section is a structured reference page, not a marketing tile — but visual weight stays light. Borders are 1px, shadows are whispers (4-8% opacity), accents are tints (8-25% mixed with white). The reader's eye lands on the content, not the chrome.",
+    "keyCharacteristics": [
+      "Editorial serif (Newsreader) for headlines and metrics; technical sans (Geist) for everything else.",
+      "Warm tinted neutrals (#f7f7f4 canvas, never pure white as the page).",
+      "One pillar accent (FinOps teal #0891b2); product/persona families are tints of a small named palette.",
+      "Soft, large-radius shadows — never crisp drop-shadows.",
+      "1px borders with color-mix tints for state, not hard color swaps.",
+      "Generous spacing scale (11 steps); rhythm comes from spacing variety, not size variety."
+    ],
+    "rules": [
+      { "name": "The Pillar Accent Rule", "section": "colors", "body": "FinOps teal is the only saturated color allowed in chrome (buttons, focus rings, active nav, dividers, hover borders). The four taxonomy hues are content-only — they appear inside SKU and persona cards to tag identity, never in the nav, never in buttons, never in toasts." },
+      { "name": "The Tinted Neutral Rule", "section": "colors", "body": "Never use #000 or #fff as a page background. Canvas is warm #f7f7f4; cards on canvas are #ffffff because the contrast is what reads as elevation. The near-black for primary buttons is #14120b, not #000 — it carries a hint of warm hue." },
+      { "name": "The Color-Mix Rule", "section": "colors", "body": "Tints are always derived via color-mix(in srgb, var(--color-X) N%, transparent|white), not picked from a swatch wheel. This keeps every tint in-family and predictable." },
+      { "name": "The Serif-for-Meaning Rule", "section": "typography", "body": "Newsreader appears on section titles, all numerical metrics, quoted customer stories, quiz question text, persona names, and discovery question prompts. Never on buttons, nav, labels, tags, or body paragraphs. The serif marks content the reader is asked to remember; everything else is in Geist." },
+      { "name": "The Weight-300 Doctrine", "section": "typography", "body": "Newsreader runs at weight-normal (400) only, never bold. Hierarchy comes from size between Newsreader elements, not weight contrast. Geist carries the weight spectrum for UI emphasis." },
+      { "name": "The Uppercase Label Rule", "section": "typography", "body": "Anything with text-transform: uppercase must also carry letter-spacing between 0.06em and 0.1em and use Geist 500-700." },
+      { "name": "The Whisper-Default Rule", "section": "elevation", "body": "Cards at rest get --shadow-whisper. Cards on hover get --shadow-lift plus translateY(-2px). No card ever gets a hard mid-tier shadow — that crispness reads as 2014 SaaS and breaks the published-paper feel." },
+      { "name": "The Border-Before-Shadow Rule", "section": "elevation", "body": "Depth starts with a 1px var(--border-light) border. Shadow is layered on top to lift a card off canvas. If a surface only has a shadow without a border, it will feel un-anchored. The pair is required." },
+      { "name": "The No-Crisp-Drop Rule", "section": "elevation", "body": "All shadows have radius >=4px and opacity <=12%. If a designer instinct says 'make the shadow tighter and darker to emphasize', the answer is no — increase the border contrast or add a serif headline instead." }
+    ],
+    "dos": [
+      "Do lead numbered content with Newsreader. Every dollar figure, percentage, ratio, and named tier value renders in serif.",
+      "Do keep FinOps teal (#0891b2) as the only saturated color in chrome.",
+      "Do tint via color-mix(in srgb, var(--color-X) N%, transparent|white). Don't introduce a new base hue without adding it to the named list first.",
+      "Do use var(--shadow-whisper) for resting elevation and var(--shadow-lift) for hover. Combine hover-lift with translateY(-2px) on interactive cards.",
+      "Do pair every color signal with a text label or shape. Color-only signaling fails for a third of seller-laptops in flight-mode brightness.",
+      "Do keep 1px borders on every elevated surface — var(--border-light) default, var(--border-medium) on hover.",
+      "Do use the warm canvas (#f7f7f4) for the page and reserve pure white for elevated card surfaces.",
+      "Do honor prefers-reduced-motion: reduce (already wired globally in ccm.module.scss)."
+    ],
+    "donts": [
+      "Don't reach for dark mode as a default. This is intentionally a warm light-theme reference annual.",
+      "Don't use navy + gold combinations. That's the corporate-finance/FinOps reflex #2.",
+      "Don't build the SaaS hero-metric template: huge gradient number on hero, three identical card-icon-heading-text tiles below, 'Trusted by [logos]'.",
+      "Don't use gradient text anywhere. background-clip: text + gradient is banned.",
+      "Don't use side-stripe borders wider than the existing 3px top-borders. No border-left: 4px solid accent as a callout.",
+      "Don't introduce glassmorphism (backdrop-filter blurs) as decoration.",
+      "Don't invent a sixth taxonomy color. SKU and persona variants come from the five named hues (devops, appsec, quality, finops, near-black).",
+      "Don't use Newsreader for UI chrome — no Newsreader buttons, nav, labels, or tags.",
+      "Don't use em dashes in copy. Use commas, colons, semicolons, periods, or parentheses.",
+      "Don't use bouncy or elastic easings.",
+      "Don't write 'Welcome!' / 'Let's get started!' / 'All set!' anywhere.",
+      "Don't wrap everything in a card. Section headers, eyebrows, and editorial body run directly on canvas."
+    ]
+  }
+}

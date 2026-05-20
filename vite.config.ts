@@ -5,9 +5,9 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'development' ? '/' : '/ccm/',
+  base: mode === 'development' ? '/' : '/iacm/',
   build: {
-    outDir: mode === 'development' ? 'dist' : 'dist/ccm',
+    outDir: mode === 'development' ? 'dist' : 'dist/iacm',
     emptyOutDir: true,
   },
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],  server: {

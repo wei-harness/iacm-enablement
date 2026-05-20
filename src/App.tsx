@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { LoginCallback, useOktaAuth } from '@okta/okta-react'
 import { SignInPage } from './pages/SignIn'
 
-const CCMPage = lazy(() => import('./CCM'))
+const IACMPage = lazy(() => import('./IACM'))
 
 function RequireAuth({ children }: { children: React.ReactNode }) {
   const { authState } = useOktaAuth()
@@ -24,21 +24,21 @@ function App() {
       <Route path="/login/callback" element={<LoginCallback />} />
       <Route path="/" element={<SignInPage />} />
       <Route
-        path="/ccm"
+        path="/iacm"
         element={
           <RequireAuth>
             <Suspense fallback={null}>
-              <CCMPage />
+              <IACMPage />
             </Suspense>
           </RequireAuth>
         }
       />
       <Route
-        path="/ccm-sales-enablement"
+        path="/iacm-sales-enablement"
         element={
           <RequireAuth>
             <Suspense fallback={null}>
-              <CCMPage />
+              <IACMPage />
             </Suspense>
           </RequireAuth>
         }

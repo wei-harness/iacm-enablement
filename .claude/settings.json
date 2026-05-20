@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git mv *)",
+      "Bash(pnpm build:prod)",
+      "Bash(rm /Users/rohanmaharjan/code/harness/iacm-enablement/.claude/PRODUCT.md /Users/rohanmaharjan/code/harness/iacm-enablement/.claude/DESIGN.md && ls /Users/rohanmaharjan/code/harness/iacm-enablement/.claude/)"
+    ],
+    "additionalDirectories": [
+      "/Users/rohanmaharjan/code/harness/iacm-enablement/.claude"
+    ]
+  }
+}

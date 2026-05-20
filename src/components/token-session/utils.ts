@@ -1,4 +1,4 @@
-const TOKEN_KEY = 'ccm_access_token'
+const TOKEN_KEY = 'iacm_access_token'
 
 export const setToken = (token: string) => {
   sessionStorage.setItem(TOKEN_KEY, token)

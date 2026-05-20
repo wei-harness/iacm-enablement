@@ -12,14 +12,14 @@ export function SignInPage() {
 
   useEffect(() => {
     if (authState?.isAuthenticated) {
-      navigate('/ccm', { replace: true })
+      navigate('/iacm', { replace: true })
     }
   }, [authState, navigate])
 
   return (
     <div className={styles.loginMain}>
       <Helmet>
-        <title>Sign In | CCM Sales Enablement</title>
+        <title>Sign In | IACM Sales Enablement</title>
       </Helmet>
 
       <div className={styles.loginMainLeft}>

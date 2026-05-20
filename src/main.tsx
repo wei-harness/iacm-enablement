@@ -12,9 +12,9 @@ import './index.css'
 const restoreOriginalUri = async (_oktaAuth: unknown, originalUri: string) => {
   try {
     const path = new URL(originalUri).pathname
-    window.location.replace(path === '/' || !path ? '/ccm-sales-enablement' : originalUri)
+    window.location.replace(path === '/' || !path ? '/iacm-sales-enablement' : originalUri)
   } catch {
-    window.location.replace('/ccm-sales-enablement')
+    window.location.replace('/iacm-sales-enablement')
   }
 }
 

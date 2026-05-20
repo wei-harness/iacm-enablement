@@ -149,10 +149,10 @@ body {
   --warning-amber: #f59e0b;
   --success-green: #10b981;
 
-  /* Module: CCM */
-  --mod-ccm-300: #24807f;
-  --mod-ccm-200: #01c9cc;
-  --mod-ccm-100: #ecffff;
+  /* Module: IACM */
+  --mod-iacm-300: #24807f;
+  --mod-iacm-200: #01c9cc;
+  --mod-iacm-100: #ecffff;
 
   /* Elevation */
   --elevation-3: 0 0 2px rgb(40 41 61 / 4%), 0 4px 8px rgb(96 97 112 / 16%);
