@@ -25,7 +25,7 @@ export function SignInPage() {
       <div className={styles.loginMainLeft}>
         <div className={styles.loginMainLeftInner}>
           <div className={styles.logo}>
-            <img alt="Harness logo" src="/assets/logo.svg" />
+            <img alt="Harness logo" src={`${import.meta.env.BASE_URL}assets/logo.svg`} />
           </div>
           <h2>
             <span>Harness Sales Enablement</span>
@@ -42,7 +42,10 @@ export function SignInPage() {
         </div>
       </div>
 
-      <div className={styles.loginMainRight} />
+      <div
+        className={styles.loginMainRight}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}assets/sign-in-bg.svg')` }}
+      />
     </div>
   )
 }
